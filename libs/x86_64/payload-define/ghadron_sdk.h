@@ -3,7 +3,7 @@
 
 #define PAYLOAD_CAMERA_RC_MODE 			"RC_MODE"
 #define PAYLOAD_CAMERA_RC_MODE_GREMSY 		0
-#define PAYLOAD_CAMERA_RC_MODE_STANDARD 		1
+#define PAYLOAD_CAMERA_RC_MODE_STANDARD 	1
 
 // Zoom super resolution value can be set from 1x to 12x
 #define PAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR              "C_V_ZOOM"
@@ -26,6 +26,7 @@ enum _zoom_eo_factor{
 #define PAYLOAD_CAMERA_GIMBAL_MODE_OFF              0
 #define PAYLOAD_CAMERA_GIMBAL_MODE_LOCK             1
 #define PAYLOAD_CAMERA_GIMBAL_MODE_FOLLOW           2
+#define PAYLOAD_CAMERA_GIMBAL_MODE_MAP              3
 #define PAYLOAD_CAMERA_GIMBAL_MODE_RESET            4
 
 #define PAYLOAD_CAMERA_VIEW_SRC             "C_SOURCE"

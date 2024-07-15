@@ -21,7 +21,7 @@
 
 #define CONTROL_UART    0
 #define CONTROL_UDP     1
-#define CONTROL_METHOD CONTROL_UART
+#define CONTROL_METHOD CONTROL_UDP
 
 static char *payload_uart_port = (char*)"/dev/ttyUSB0";
 static int payload_uart_baud = 115200;

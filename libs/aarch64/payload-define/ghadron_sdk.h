@@ -26,6 +26,7 @@ enum _zoom_eo_factor{
 #define PAYLOAD_CAMERA_GIMBAL_MODE_OFF              0
 #define PAYLOAD_CAMERA_GIMBAL_MODE_LOCK             1
 #define PAYLOAD_CAMERA_GIMBAL_MODE_FOLLOW           2
+#define PAYLOAD_CAMERA_GIMBAL_MODE_MAP              3
 #define PAYLOAD_CAMERA_GIMBAL_MODE_RESET            4
 
 #define PAYLOAD_CAMERA_VIEW_SRC             "C_SOURCE"
